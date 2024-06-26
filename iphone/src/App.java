@@ -6,17 +6,17 @@ public class App {
 
         Iphone iphone = new Iphone();
 
-        //TODO: Aparelho Telefonico
-        iphone.ligar("236598745");
+        //Aparelho Telefonico
+        iphone.ligar("2345598745");
         iphone.atender();
         iphone.iniciarCorreioVoz();
 
-        //TODO: Reprodutor Musical
-        iphone.selecionarMusica("Coldplay - Viva La Vida");
+        //Reprodutor Musical
+        iphone.selecionarMusica("Taylor Swift - the alchemy");
         iphone.tocar();
         iphone.pausar();
 
-        //TODO: Navegador Internet
+        //Navegador Internet
         iphone.adicionarNovaAba();
         iphone.exibirPagina("http://localhost");
         iphone.atualizarPagina();
